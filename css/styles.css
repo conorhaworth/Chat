@@ -1,0 +1,23 @@
+*{
+    color: white
+}
+body{
+    margin: 0;
+    padding: 0
+}
+
+header{
+    width: 100%;
+    background: #43A047;
+}
+.header-inner{
+    text-align: center;
+    -webkit-box-shadow: 0px 3px 7px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 7px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 7px -1px rgba(0,0,0,0.75)
+}
+.header-inner h1{
+    margin: 0;
+    font-size: 2.5rem;
+    padding: 10px 0 10px 0
+}
