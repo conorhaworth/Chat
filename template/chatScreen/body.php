@@ -1,5 +1,5 @@
 <div class="messages-container">
-    <div class="messages-inner">
+    <div class="messages-inner" id="messagepane">
         <div class="message">
             <div class="message-left">
                 <p class="username">Gary</p>
