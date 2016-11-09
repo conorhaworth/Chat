@@ -140,3 +140,53 @@ header{
     float:left;
     margin-right: 15px
 }
+
+.login-container{
+    width: 100%;
+    height: 100%
+}
+
+.login-inner{
+    margin: 10% auto;
+    max-width: 400px;
+}
+.login form label{
+    color: #000;
+    width: 100%;
+    text-align: center;
+    margin: 0
+}
+.login form input[type="text"]{
+    width: 70%;
+    margin: 10px 15% 0;
+    color: #000;
+    border-style: solid;
+    border-color: #ccc
+}
+.login form input[type="submit"]{
+    width: 30%;
+    margin: 10px 35% 0;
+}
+
+#login_username_error{
+    width: 70%;
+    margin: 0 auto;
+    display: none
+}
+
+#login_username_error p{
+    color: red;
+    font-size: 8pt;
+
+}
+
+#login_submit{
+    color: #fff;
+    background: #43A047;
+    border-radius: 5px;
+    border: 0
+}
+#login_submit[disabled]{
+    background: #ccc;
+    
+}
