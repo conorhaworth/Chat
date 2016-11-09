@@ -17,8 +17,8 @@
         
     }
     function validateUsername($username){
-        $_SESSION['username'] = username;
-        setCookie("username", username, time()+604800);
+        $_SESSION['username'] = $username;
+        setCookie("username", $username, time()+604800);
         return true;
     }
   if(isset($_POST["username"])){
