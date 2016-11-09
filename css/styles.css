@@ -1,6 +1,11 @@
 *{
     color: white
 }
+
+p{
+    color: #000;
+    margin: 0
+}
 body{
     margin: 0;
     padding: 0;
@@ -41,7 +46,7 @@ header{
     background: #fff;
     border-top: 1px solid #cccccc;
     position:absolute;
-    bottom: -3px;
+    bottom: 0;
     left: 0
 }
 
@@ -51,11 +56,12 @@ header{
 }
 
 .messages-inner{
-    padding: 10px
+    padding-top: 10px
 }
 
 .message{
-    width: 100%;
+    width: 96%;
+    margin: 0 2%;
     float: left;
     clear: both;
     color: #000000;
@@ -63,14 +69,14 @@ header{
 .message-left{
     float: left;
     color: #000000;
-    width: 15%;
-    max-width: 60px
 }
 
 .message-right{
     float: left;
     color: #000000;
-    width: 85%
+    width: 80%;
+    clear:left;
+    margin: 0 10%;
 }
 .message.local{
     float: right
@@ -82,7 +88,9 @@ header{
 
 .message.local .message-right{
     float: right;
-    text-align: right
+    text-align: right;
+    clear:right;
+    margin-right: 10%
 }
 
 .message-content{
@@ -96,4 +104,39 @@ header{
 .message.local .message-content{
     float: right;
     background: #c2c2c2
+}
+
+#input_message{
+    color: #000000;
+    padding: 5px;
+    height: 36px;
+    margin: 7px 2%;
+    width: 75%
+}
+
+#send_message{
+    width: 15%;
+    margin: 7px 0% 7px 0;
+    height: 36px;
+    border: 0;
+    border-radius: 5px;
+    background: #43A047
+}
+
+.send-inner form input{
+    display: inline-block
+}
+
+.username, .timestamp{
+    display: inline-block
+}
+
+.timestamp{
+    margin-left: 15px;
+    margin-right: 0
+}
+
+.message.local .timestamp{
+    float:left;
+    margin-right: 15px
 }
