@@ -2,131 +2,20 @@
     <div class="messages-inner">
         <div class="message">
             <div class="message-left">
-                Liam
+                <p class="username">Liam</p>
+                <p class="timestamp">15:32</p>
             </div>
             <div class="message-right">
                 <p class="message-content">Hello World!</p>
             </div>
         </div>
-        <div class="message">
-            <div class="message-left">
-                Liam
-            </div>
-            <div class="message-right">
-                <p class="message-content">Hello World!</p>
-            </div>
-        </div>
-        <div class="message">
-            <div class="message-left">
-                Liam
-            </div>
-            <div class="message-right">
-                <p class="message-content">Hello World!</p>
-            </div>
-        </div>
-        <div class="message">
-            <div class="message-left">
-                Liam
-            </div>
-            <div class="message-right">
-                <p class="message-content">Hello World!</p>
-            </div>
-        </div>
-        <div class="message">
-            <div class="message-left">
-                Liam
-            </div>
-            <div class="message-right">
-                <p class="message-content">Hello World!</p>
-            </div>
-        </div>
-        <div class="message">
-            <div class="message-left">
-                Liam
-            </div>
-            <div class="message-right">
-                <p class="message-content">Hello World!</p>
-            </div>
-        </div>
-        <div class="message">
-            <div class="message-left">
-                Liam
-            </div>
-            <div class="message-right">
-                <p class="message-content">Hello World!</p>
-            </div>
-        </div>
-        <div class="message">
-            <div class="message-left">
-                Liam
-            </div>
-            <div class="message-right">
-                <p class="message-content">Hello World!</p>
-            </div>
-        </div>
-        <div class="message">
-            <div class="message-left">
-                Liam
-            </div>
-            <div class="message-right">
-                <p class="message-content">Hello World!</p>
-            </div>
-        </div>
-        <div class="message">
-            <div class="message-left">
-                Liam
-            </div>
-            <div class="message-right">
-                <p class="message-content">Hello World!</p>
-            </div>
-        </div>
-        <div class="message">
-            <div class="message-left">
-                Liam
-            </div>
-            <div class="message-right">
-                <p class="message-content">Hello World!</p>
-            </div>
-        </div>
-        <div class="message">
-            <div class="message-left">
-                Liam
-            </div>
-            <div class="message-right">
-                <p class="message-content">Hello World!</p>
-            </div>
-        </div>
-        <div class="message">
-            <div class="message-left">
-                Liam
-            </div>
-            <div class="message-right">
-                <p class="message-content">Hello World!</p>
-            </div>
-        </div>
-        <div class="message">
-            <div class="message-left">
-                Liam
-            </div>
-            <div class="message-right">
-                <p class="message-content">Hello World!</p>
-            </div>
-        </div>
-        
         <div class="message local">
             <div class="message-left">
-                Conor
+                <p class="username">Conor</p>
+                <p class="timestamp">15:36</p>
             </div>
             <div class="message-right">
                 <p class="message-content">Hi</p>
-            </div>
-        </div>
-        <div class="message">
-            <div class="message-left">
-                Carmen
-            </div>
-            <div class="message-right">
-                <p class="message-content">This is a rreally long and pointless message! asdfasdfbn jasdafsafsjbfs kjbfsjbkfskjblfskjlbfmskjblkjblsadlbfasdknfb vasdk  ad sdf asdfas</p>
             </div>
         </div>
     </div>
