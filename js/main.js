@@ -4,8 +4,9 @@ $(document).ready(function(){
 
 function getLatestMessages(){
     var mockData = '{"messages":[{"username":"bob", "content":"hello", "timestamp":"09/11/2016 10:38"},{"username": "fred", "content":"hi", "timestamp":"09/11/2016 10:38"},{"username":"jim", "content":"hey", "timestamp":"09/11/2016 10:38"}]}';
+    var currentUser = "bob";
 
-    var json = $.parseJSON(mockData);
+    var json = $.parseJSON(mockData, currentUser);
 
     refreshChat(json);
 
@@ -15,14 +16,21 @@ function getLatestMessages(){
     });**/
 }
 
-function refreshChat(data) {
+function refreshChat(data, currentUser) {
     if(typeof data == "object") {
         if (!(typeof data.messages == "undefined")) {
             for(var i = 0; i < data.messages.length; i++) {
+                if (data.messages[i].username == currentUser){
+                    $("#messagepane").append("<div class='message local'></div><div class='message-left'><p class='username'>" + data.messages[i].username + "</p> <p class='timestamp'>" + data.messages[i].timestamp + "</p></div><div class='message-right'><p class='message-content'>" + data.messages[i].content + "</div></div>");
 
-                $("#messagepane").append("<div class='message-left'>" + data.messages[i].username + "</div> <div class='message-right'> <p class='message-content'>" + data.messages[i].content + " </div>");
-                console.log(data.messages[i].username + " - " + data.messages[i].content + " - " + data.messages[i].timestamp);
+                } else {
+                    $("#messagepane").append("<div class='message'></div><div class='message-left'><p class='username'>" + data.messages[i].username + "</p><p class='timestamp'>" + data.messages[i].timestamp + "</p></div><div class='message-right'><p class='message-content'>" + data.messages[i].content + "</div></div>");
+                    console.log(data.messages[i].username + " - " + data.messages[i].content + " - " + data.messages[i].timestamp);
+
+                }
+
             }
         }
     }
 }
+
