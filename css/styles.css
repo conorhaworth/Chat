@@ -40,6 +40,10 @@ header{
     left: 0
 }
 
+.messages-inner{
+    padding: 10px
+}
+
 .message{
     width: 90%;
     float: left;
@@ -56,4 +60,29 @@ header{
     float: left;
     color: #000000;
     width: 85%
+}
+.message.local{
+    float: right
+}
+.message.local .message-left{
+    float: right;
+    text-align: right
+}
+
+.message.local .message-right{
+    float: right;
+    text-align: right
+}
+
+.message-content{
+    color: #000000;
+    background: #66BB6A;
+    float: left;   
+    padding: 2px 5px;
+    border-radius: 5px
+}
+
+.message.local .message-content{
+    float: right;
+    background: #c2c2c2
 }
