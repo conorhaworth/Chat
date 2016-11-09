@@ -24,9 +24,7 @@ function refreshChat(data) {
                 } else {
                     $("#messagepane").append("<div class='message'><div class='message-left'><p class='username'>" + data.messages[i].username + "</p><p class='timestamp'>" + data.messages[i].timestamp + "</p></div><div class='message-right'><p class='message-content'>" + data.messages[i].content + "</div></div>");
                     console.log(data.messages[i].username + " - " + data.messages[i].content + " - " + data.messages[i].timestamp);
-
                 }
-
             }
         }
     }
