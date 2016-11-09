@@ -10,7 +10,7 @@
 </head>
 <body>
     <!--- REMOVE '!' FROM IF STATEMENT AFTER LOGIN SCREEN IS IMPLEMENTED -->
-    <?php if($_SESSION['isLoggedIn']):
+    <?php if(!$_SESSION['isLoggedIn']):
         include('template/chatScreen/header.php'); 
         include('template/chatScreen/body.php'); 
         include('template/chatScreen/send.php'); 

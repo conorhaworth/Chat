@@ -9,7 +9,7 @@
                 <p class="message-content">Hello World!</p>
             </div>
         </div>
-        <div class="message local">
+        <div class="message local" id = "localmessagepane">
             <div class="message-left">
                 <p class="username">John</p>
                 <p class="timestamp">15:36</p>
