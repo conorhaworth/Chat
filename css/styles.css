@@ -31,7 +31,9 @@ header{
 .header-inner h1{
     margin: 0;
     font-size: 2.5rem;
-    padding: 10px 0 10px
+    padding: 10px 0 10px;
+    position: relative;
+    right: 50px;
 }
 
 .send-container{
@@ -189,4 +191,37 @@ header{
 #login_submit[disabled]{
     background: #ccc;
     
+}
+
+.menu-button{
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+
+.menu-button i{
+    color:#fff;
+    font-size: 26pt;
+    margin-top: 8px
+}
+
+.menu-button i:hover{
+    cursor: pointer
+}
+
+.header-inner *{
+    display: inline-block
+}
+
+.menu-container{
+    background: #fff;
+    position:relative;
+    width: 250px;
+    height: 100%;
+    background: #fff;
+    right: 250px;
+    border-right: solid 1px #ccc;
+    -webkit-box-shadow: 2px 2px 7px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 7px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 7px 0px rgba(0,0,0,0.75)
 }
