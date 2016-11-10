@@ -286,3 +286,42 @@ ol.menu-list li.menu-list-item p{
 .modal-item{
     display: none
 }
+
+ol.list-grid{
+    padding: 0;
+    margin: 0;
+}
+
+ol.list-grid .modal-controller{
+    width: 100%;
+    display: block;
+    background: blue;
+}
+ol.list-grid .modal-controller *{
+    display: inline-block;
+    color: #000
+}
+
+ol.list-grid .modal-controller p{
+    margin:0;
+    float: right;   
+}
+
+ol.list-grid .modal-controller h1{
+ float: left;   
+    margin: 0;
+    font-size: 15pt
+}
+
+
+ol.list-grid .list-grid-child{
+    width: 100%;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    background: red;
+}
+
+.modal-close:hover{
+    cursor: pointer
+}
