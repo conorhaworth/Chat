@@ -5,7 +5,7 @@
 </div>
 <div class="menu-container close-menu">
     <div class="menu-inner">
-        <?php include('/template/chatScreen/menu.php'); ?>
+        <?php include('menu.php'); ?>
     </div>
 </div>
 <script src="/js/menu.js"></script>
