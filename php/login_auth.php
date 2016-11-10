@@ -17,8 +17,6 @@
         
     }
     function validateUsername($username){
-        echo '<script type="text/javascript" jsfunction(); </script>'
-        ;
         $_SESSION['username'] = $username;
         setCookie("username", $username, time()+604800);
         return true;
