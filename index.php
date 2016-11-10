@@ -19,6 +19,7 @@
             include('template/chatScreen/header.php'); 
             include('template/chatScreen/body.php'); 
             include('template/chatScreen/send.php'); 
+            include('template/chatScreen/popup.php'); 
         else:
             include('template/loginScreen/body.php'); 
         endif;
